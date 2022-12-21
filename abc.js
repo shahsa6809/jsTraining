@@ -3,7 +3,7 @@ let user={
     lname:"shah",
     age:25,
     fullname:function(){
-          console.log(this.fname);
+          console.log(this.lname);
     }
 };
 user.fullname();
